@@ -4,26 +4,34 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="4dp">
+
     <TextView
         android:id="@+id/txtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="1dp"
+        android:textColor="@color/black"
         android:textSize="18sp" />
+
     <TextView
         android:id="@+id/txtDistance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="1dp" />
+        android:padding="1dp"
+        android:textColor="@color/black" />
+
     <TextView
         android:id="@+id/txtGravity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="1dp" />
+        android:padding="1dp"
+        android:textColor="@color/black" />
+
     <TextView
         android:id="@+id/txtDiameter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="1dp" />
+        android:padding="1dp"
+        android:textColor="@color/black" />
 
 </LinearLayout>
